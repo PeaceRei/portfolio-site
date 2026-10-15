@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="早坂玲のクリエイティブポートフォリオ。ネイル、ダンス、アート、デザインとデータ分析。">
+  <title>REI HAYASAKA | Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="i18n.js" defer></script>
+  <script src="works.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <button class="menu-toggle" type="button" aria-controls="sidebar" aria-expanded="false" aria-label="メニューを開く">☰</button>
+  <div class="menu-overlay" hidden></div>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#top">REI HAYASAKA<span>Creative Portfolio</span></a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#top" class="active" aria-current="location"><span aria-hidden="true">⌂</span> Home</a>
+      <a href="#about"><span aria-hidden="true">♙</span> About</a>
+      <a href="#works"><span aria-hidden="true">□</span> Works</a>
+      <a href="#diary"><span aria-hidden="true">▤</span> Diary</a>
+      <a href="#contact"><span aria-hidden="true">✉</span> Contact</a>
+    </nav>
+    <div class="language-switcher" role="group" aria-label="表示言語">
+      <button type="button" data-language="ja" lang="ja" aria-label="日本語" aria-pressed="true">JP</button>
+      <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+      <button type="button" data-language="ko" lang="ko" aria-label="한국어" aria-pressed="false">KR</button>
+      <button type="button" data-language="zh" lang="zh-CN" aria-label="简体中文" aria-pressed="false">中文</button>
+    </div>
+    <div class="sidebar-note">Made with love <span>♡</span><small>TOKYO, JAPAN / 2026</small></div>
+  </aside>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A LITTLE WORLD OF THINGS I LOVE</p>
+        <h1 id="hero-title">REI<br>HAYASAKA<span>Creative Portfolio</span></h1>
+        <h2>好きなことで、<br>かわいいをつくる <span>♡</span></h2>
+        <p class="hero-description">かわいいで、<br>だれかの毎日をちょっと特別に。</p>
+        <a class="button" href="#works">MY WORKSを見る <span>→</span></a>
+        <p class="hero-meta">JAPANESE UNIVERSITY STUDENT<br>CREATIVE / DESIGN / DANCE / CULTURE</p>
+      </div>
+      <div class="collage" aria-label="Nail designs collage">
+        <span class="collage-label">my favorite things…</span>
+        <div class="polaroid"><div class="hero-art"><div class="bubble bubble-one"></div><div class="bubble bubble-two"></div><img id="hero-image" src="./media/nail.jpeg" alt="Nail design collection"></div><p>a little bit of kawaii ♡</p></div>
+        <div class="sticker cherry" aria-hidden="true">🍒</div>
+        <div class="sticker ribbon" aria-hidden="true">🎀</div>
+        <div class="flower-card mood-card"><img src="./media/grow-your-own-way-01.png" alt="海辺の岩場と青い空に包まれた後ろ姿" width="556" height="1000"><small>grow your own way</small></div>
+        <span class="silver-star" aria-hidden="true">✦</span>
+        <span class="little-heart" aria-hidden="true">♡</span>
+        <div class="note-sticker">collect moments,<br>create happiness.</div>
+      </div>
+      <a class="scroll-note" href="#about">SCROLL TO EXPLORE ↓</a>
+    </section>
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="about-copy"><p class="eyebrow">01 / HELLO, I'M REI</p><h2 id="about-title" class="section-title">About me <span>♡</span></h2>
+        <h3>早坂 玲（はやさか れい）です！</h3>
+        <p>都内の大学で、<br>デザインやデータサイエンスを学んでいます。</p>
+        <p>ネイル、ダンス、アート、デザイン、PR・ブランディング、データ分析など、好きなことを組み合わせながら幅広いクリエイティブ活動に挑戦しています。</p>
+        <p>「好き」をかたちにして、見る人の心が少し動くようなものをつくることが目標です。</p>
+      </div>
+      <div class="about-notes"><aside class="interests"><span class="tape" aria-hidden="true"></span><h3>My Interests</h3><ul><li><a href="#works" data-category="NAIL">Nail</a></li><li><a href="#works" data-category="DANCE">Dance</a></li><li><a href="#works" data-category="ART">Art</a></li><li><a href="#works" data-category="PR">PR / Branding</a></li><li><a href="#works" data-category="DESIGN / DATA">Design / Data</a></li><li>Travel</li><li>Kawaii things...</li></ul><span class="note-heart" aria-hidden="true">♡</span></aside>
+      <aside class="languages" aria-labelledby="languages-title"><span class="tape" aria-hidden="true"></span><h3 id="languages-title">Languages</h3><ul><li><span class="language-code">JP</span><span>Japanese</span></li><li><span class="language-code">EN</span><span>English</span></li><li><span class="language-code">KR</span><span>Korean</span></li><li><span class="language-code">CN</span><span class="chinese-learning">中国語（勉強中）</span></li></ul></aside>
+      <aside class="roles" aria-labelledby="roles-title"><span class="tape" aria-hidden="true"></span><h3 id="roles-title">Roles</h3><p class="role-name">Rei</p><ul class="role-list"><li>Illustrator</li><li>Board Director</li><li>PR / Branding</li></ul><dl><div><dt>Choreography / Composition</dt><dd><span lang="ko">그 레아</span><small class="role-description">韓国関連の振付・作曲活動で使用している活動名。</small></dd></div></dl></aside></div>
+    </section>
+    <section class="works section" id="works" aria-labelledby="works-title">
+      <p class="eyebrow">02 / MADE WITH LOVE</p><h2 id="works-title" class="section-title">My Works <span>♡</span></h2><p class="section-subtitle">作った作品たち</p>
+      <div class="works-toolbar"><div class="category-controls"><button class="category-arrow" type="button" data-category-step="-1" aria-label="Previous category" aria-controls="works-grid">&#8592;</button><div class="filters" role="group" aria-label="作品カテゴリー"><button type="button" data-category="ALL" class="selected" aria-pressed="true">ALL</button><button type="button" data-category="NAIL" aria-pressed="false">NAIL</button><button type="button" data-category="DANCE" aria-pressed="false">DANCE</button><button type="button" data-category="ART" aria-pressed="false">ART</button><button type="button" data-category="PR" aria-pressed="false">PR</button><button type="button" data-category="DESIGN / DATA" aria-pressed="false">DESIGN / DATA</button></div><button class="category-arrow" type="button" data-category-step="1" aria-label="Next category" aria-controls="works-grid">&#8594;</button></div><label class="year-label">制作年 <select id="year-filter"><option value="ALL">ALL YEARS</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option></select></label></div>
+      <h3 id="portfolio-categories" class="portfolio-categories-title">Explore My Works</h3>
+      <p id="works-status" class="works-status" role="status">作品を読み込んでいます…</p><div id="works-grid" class="works-grid"></div>
+      <nav class="works-bottom-nav" aria-label="作品一覧のカテゴリ切り替え">
+        <p class="bottom-category-current">VIEWING <span id="bottom-category-current">ALL</span></p>
+        <div class="bottom-category-buttons">
+          <button type="button" class="bottom-category-button" data-category-step="-1" data-scroll-works aria-controls="works-grid"><span class="bottom-arrow" aria-hidden="true">←</span><span data-neighbor-category>DESIGN / DATA</span></button>
+          <button type="button" class="bottom-category-button" data-category-step="1" data-scroll-works aria-controls="works-grid"><span data-neighbor-category>NAIL</span><span class="bottom-arrow" aria-hidden="true">→</span></button>
+        </div>
+      </nav>
+      <noscript><p>作品を見るにはJavaScriptを有効にしてください。</p></noscript>
+    </section>
+    <section class="diary section" id="diary" aria-labelledby="diary-title">
+      <div class="diary-heading"><p class="eyebrow">03 / LITTLE EVERYDAY THINGS</p><h2 id="diary-title" class="section-title">Diary <span>♡</span></h2><p class="section-subtitle">つくる時間も、好きなもののひとつ。</p></div>
+      <article class="process-entry" aria-labelledby="nail-process-title">
+        <header class="process-heading"><span class="process-label">CREATIVE NOTES / 01</span><h3 id="nail-process-title">Nail の制作過程</h3><p>小さなパーツをひとつずつ。配置ときらめきのバランスを探しながら。</p></header>
+        <ol class="process-gallery nail-process">
+          <li><figure class="process-photo"><a href="./media/nail-diary-step-03.jpg" aria-label="パーツづくりの写真を大きく見る"><img src="./media/nail-diary-step-03.jpg" alt="指先に載せた小さな白い立体パーツ" loading="lazy"></a><figcaption><span>01 / SMALL PARTS</span>小さなモチーフから。</figcaption></figure></li>
+          <li><figure class="process-photo"><a href="./media/nail-diary-step-04.jpg" aria-label="ストーン配置の写真を大きく見る"><img class="nail-process-detail" src="./media/nail-diary-step-04.jpg" alt="ピンセットを使い、ネイルにストーンや花を配置している手元" loading="lazy"></a><figcaption><span>02 / ARRANGEMENT</span>ストーンの位置を調整。</figcaption></figure></li>
+          <li><figure class="process-photo"><a href="./media/nail-diary-step-01.jpg" aria-label="仕上がりの写真を大きく見る"><img src="./media/nail-diary-step-01.jpg" alt="リボンやパール、立体モチーフを組み合わせたネイルの仕上がり" loading="lazy"></a><figcaption><span>03 / FINISHING TOUCHES</span>質感と全体のバランスを確認。</figcaption></figure></li>
+          <li><figure class="process-photo"><a href="./media/nail-diary-step-02.jpg" aria-label="別アングルの仕上がりを大きく見る"><img src="./media/nail-diary-step-02.jpg" alt="クリアな爪先にリボンやストーンが輝く、別アングルの仕上がり" loading="lazy"></a><figcaption><span>04 / ANOTHER ANGLE</span>角度を変えて、きらめきを楽しむ。</figcaption></figure></li>
+        </ol>
+      </article>
+      <article class="process-entry art-entry" aria-labelledby="art-process-title">
+        <header class="process-heading"><span class="process-label">CREATIVE NOTES / 02</span><h3 id="art-process-title">Art の制作過程</h3><p>色を重ねて、光を仕込む。アナログならではの筆致と質感を大切に。</p></header>
+        <ol class="process-gallery art-process">
+          <li><figure class="process-photo"><a href="./media/art-diary-step-01.jpg" aria-label="Artの描き込み過程を大きく見る"><img src="./media/art-diary-step-01.jpg" alt="顔や髪から色を重ねている、制作途中のイラスト" loading="lazy"></a><figcaption><span>01 / LAYER BY LAYER</span>顔や髪に、少しずつ色を重ねる。</figcaption></figure></li>
+          <li><figure class="process-photo"><a href="./media/art-diary-step-02.jpg" aria-label="Artの全体構図を大きく見る"><img src="./media/art-diary-step-02.jpg" alt="背景と衣装へと彩色を進めている作品全体と絵具皿" loading="lazy"></a><figcaption><span>02 / THE WHOLE PICTURE</span>全体の色と構図を整えて。</figcaption></figure></li>
+          <li class="art-detail"><figure class="process-photo"><a href="./media/art-diary-step-03-detail.jpg" aria-label="瞳と金絵具のディテールを大きく見る"><img src="./media/art-diary-step-03-detail.jpg" alt="ジェルとストーンで輝く青い瞳、金絵具を使った髪と瞼のディテール" loading="lazy"></a><figcaption><span>03 / A LITTLE SPARKLE</span>瞳はジェルネイルでコーティングし、ストーンと中に仕込んだホログラムで、光を受けてきらめく仕上がりに。髪や瞼には金絵具を重ね、細かな質感までこだわりました。</figcaption></figure></li>
+        </ol>
+      </article>
+    </section>
+    <section class="contact section" id="contact" aria-labelledby="contact-title"><p class="eyebrow">04 / SAY HELLO</p><h2 id="contact-title" class="section-title">Let's Connect! <span>♡</span></h2><h3>一緒にかわいい何かをつくりませんか？</h3><p>お仕事のご相談・コラボなど、<br>お気軽にご連絡ください！</p><button class="button" id="contact-button" type="button" aria-expanded="false" aria-controls="contact-message">Contact <span>→</span></button><p id="contact-message" hidden>連絡先は準備中です。公開までお待ちください ♡</p></section>
+    <footer><a class="brand" href="#top">REI HAYASAKA<span>Creative Portfolio</span></a><nav aria-label="フッターナビゲーション"><a href="#top">Home</a><a href="#about">About</a><a href="#works">Works</a><a href="#diary">Diary</a><a href="#contact">Contact</a></nav><small>© 2026 REI HAYASAKA</small></footer>
+  </main>
+</body>
+</html>
